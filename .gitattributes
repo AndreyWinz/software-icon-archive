@@ -1,0 +1,13 @@
+# Treat all icon formats as binary files
+*.ico binary
+*.png binary
+*.svg text eol=lf
+*.jpg binary
+*.jpeg binary
+*.icns binary
+*.bmp binary
+
+# Ensure consistent line endings for text files
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
